@@ -1,0 +1,666 @@
+/*¹«ÓÃ*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.clear:before,.clear:after
+{
+    content: '';
+    display: table;
+}
+.clear:after
+{
+    clear: both;
+}
+html
+{
+    font-size: 100px;
+}
+body
+{
+    font-size: 16px;
+    font-family:"simsun";font-family:"Microsoft YaHei";
+}
+@media screen and (width: 320px)
+{
+    html {font-size: 50px;}
+}
+@media screen and (width: 375px)
+{
+    html{font-size: 58.59375px}
+}
+@media screen and (width: 414px)
+{
+    html{font-size: 64.6875px}
+}
+@media screen and (width: 480px)
+{
+    html{font-size: 75px}
+}
+@media screen and (width: 720px)
+{
+    html{font-size: 112.5px}
+}
+@media screen and (width: 1024px)
+{
+    html{font-size: 160px}
+}
+@media screen and (width: 360px)
+{
+    html{font-size: 56.25px}
+}
+@media screen and (width: 768px)
+{
+    html{font-size: 120px}
+}
+@media screen and (width: 800px)
+{
+    html{font-size: 125px}
+}
+@media screen and (width: 1280px)
+{
+    html{font-size: 200px}
+}
+/*index-css*/
+.index_container
+{
+    width: 6.4rem;
+    height: auto;
+}
+.index_header
+{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-color: #f1f1f1;
+    width: 5.8rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    position: relative;
+}
+.index_header_left
+{
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.index_header_right
+{
+    float: right;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url("../img/m-main-icon.png") no-repeat;
+    background-position: 0 -0.59rem;
+}
+.index_header_middle
+{
+    width: 1.56rem;
+    height: 0.5rem;
+   position: absolute;
+    left: 2.6rem;
+    top: 0.16rem;
+}
+.index_content_img
+{
+    width: 6.4rem;
+    height: 2.67rem;
+    position: relative;
+}
+.index_content_img p
+{
+    position: absolute;
+    top: 2.1rem;
+    left: 0.3rem;
+    color: white;
+    font-size: 0.32rem;
+}
+.index_content_img img
+{
+    width: 100%;
+}
+.index_content_main
+{
+    width: 5.8rem;
+    height: auto;
+    padding: 0.3rem;
+    padding-top: 0.1rem;
+}
+.index_content_main_div1
+{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.03rem solid #e5e5e5;
+    position: relative;
+}
+.index_content_main_div1 span
+{
+    position: absolute;
+    top: 1.3rem;
+    left: 0.7rem;
+    font-size: 0.16rem;
+    color: white;
+    font-weight: bold;
+}
+.img-3-1
+{
+    width: 1.3rem;
+    height: 1.3rem;
+    float: left;
+}
+.index_content_main_div1 div
+{
+    float: right;
+    margin-left: 0.02rem;
+}
+.index_content_main_div1 div label
+{
+    font-size: 0.16rem;
+}
+h1
+{
+    width: 3.85rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    margin: 0;
+    margin-bottom: 0.3rem;
+}
+.img-3-png
+{
+    width: 0.24rem;
+    height: 0.22rem;
+}
+.img-2-png
+{
+    width: 0.23rem;
+    height: 0.22rem;
+}
+/*login2-css*/
+.log2_container
+{
+    width: 6.4rem;
+    height: 8.5rem;
+    /*outline: 0.01rem;*/
+}
+.log2_title h1
+{
+    text-align: center;
+    width: 100%;
+    line-height: 0.8rem;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.log2_header
+{
+    width: 5.8rem;
+    height: auto;
+    padding: 0.4rem 0.3rem;
+    /*outline: 0.01rem solid;*/
+}
+.log2_header_red
+{
+    background-color: #fa565f;
+    width: 2.2rem;
+    height: 0.6rem;
+    padding: 0.1rem 0.2rem;
+    vertical-align: 0.01rem;
+    float: left;
+}
+.log2_header_red img,.log2_header_blue img
+{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.log2_header_red label,.log2_header_blue label
+{
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: 0.2rem;
+}
+.log2_header_blue
+{
+    background-color: #49c5f6;
+    width: 2.2rem;
+    height: 0.6rem;
+    padding: 0.1rem 0.2rem;
+    vertical-align: 0.01rem;
+    float: right;
+}
+.log2_header span
+{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    /*outline: 0.01rem solid;*/
+    padding: 0.2rem 0.1rem;
+    font-size: 0.3rem;
+    color: grey;
+}
+.iog2_content
+{
+    width: 5.8rem;
+    height: auto;
+    padding: 0.4rem 0.3rem;
+    /*outline: 0.01rem solid;*/
+    padding-bottom: 2rem;
+}
+.log2_content_xian
+{
+    width: 5.8rem;
+    height: 0.23rem;
+}
+.log2_xian1
+{
+    float: left;
+    width: 1.5rem;
+    height: 0.23rem;
+    background: url("../img/login2_03.jpg") repeat;
+}
+.log2_xian2
+{
+    float: right;
+    width: 1.5rem;
+    height: 0.23rem;
+    background: url("../img/login2_03.jpg") repeat;
+}
+.log2_content_xian label{
+    display: inline-block;
+    width: 2.4rem;
+    height: 0.4rem;
+    padding-left: 0.2rem;
+    text-align: center;
+    font-size: 0.22rem;
+}
+.iog2_content form
+{
+    width: 5.8rem;
+}
+.iog2_content input
+{
+    width: 5.7rem;
+    height: 0.8rem;
+    margin-top: 0.2rem;
+}
+.iog2_content form .button
+{
+    background-color: #017fff;
+    border: none;
+    font-size: 0.25rem;
+    color: white;
+}
+/*info*/
+.info_container
+{
+    width: 6.4rem;
+    height: auto;
+    position: relative;
+}
+.info_before
+{
+    position: absolute;
+    top: 3.8rem;
+    left: 2.2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #f1f1f1;
+    display: block;
+}
+.info_before img
+{
+    width: 0.71rem;
+    height: 0.71rem;
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+
+}
+.info_before p
+{
+    text-align: center;
+    font-size: 0.16rem;
+}
+.info_header
+{
+    width: 100%;
+    position: relative;
+}
+.info_header img
+{
+    width: 6.4rem;
+    height: 3rem;
+}
+.info_header span
+{
+    width: 1.6rem;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    color: white;
+    font-size: 0.6rem;
+}
+.info_content
+{
+    width: 5.8rem;
+    height: auto;
+    padding: 0.4rem 0.3rem;
+    padding-bottom: 0;
+    /*outline: 0.01rem solid;*/
+}
+.info_content_tittle p
+{
+    font-size: 0.35rem;
+    width: 5.8rem;
+}
+.info_content_star1
+{
+    display: inline-block;
+    width: 1.15rem;
+    height: 0.28rem;
+    background: url("../img/star-yes_2x.png") no-repeat;
+}
+.info_content_star2
+{
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.28rem;
+    background: url("../img/star-no_2x.png") no-repeat;
+    margin-left: -0.1rem;
+}
+.info_content_star .label1
+{
+    font-size: 0.25rem;
+    color: goldenrod;
+}
+.info_content_star .label2
+{
+    font-size: 0.25rem;
+    color: grey;
+    margin-left: 0.1rem;
+}
+.info_content_tittle hr{
+    width: 5.8rem;
+    color: gainsboro;
+    margin-top: 0.1rem;
+}
+.info_content_main p
+{
+    text-indent: 0.4rem;
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+    color: grey;
+}
+.info_content_main_bottom
+{
+    padding-top: 0.4rem;
+}
+.info_content_main_bottom span
+{
+    float: left;
+    font-size: 0.2rem;
+    color: grey;
+}
+.info_content_main_bottom .span2
+{
+    margin-left: 1.3rem;
+}
+.info_content_main_bottom .span3
+{
+    float: right;
+}
+.info_content_main_bottom .span3 a
+{
+    text-decoration: none;
+    color: #29a5f1;
+}
+.info_contentM_C
+{
+    margin-top: 0.2rem;
+    width: 5.6rem;
+    height: 0.9rem;
+    padding: 0.1rem;
+    border: 0.01rem solid gainsboro;
+}
+.info_contentM_C_img1
+{
+    float: left;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.info_contentM_C div
+{
+    width: 2rem;
+    height: 0.9rem;
+    float: left;
+    /*margin-left: 0.9rem;*/
+}
+.info_contentM_C div p
+{
+    font-size: 0.16rem;
+    line-height: 0.45rem;
+    padding: 0;
+    margin-top: 0;
+}
+.info_friends
+{
+    margin-top: 0.3rem;
+}
+
+.info_friends a
+{
+    display: block;
+    background-color: #0094ff;
+    width: 5.8rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.info_ping
+{
+    width: 5.8rem;
+    height: auto;
+    padding: 0.3rem 0.3rem;
+}
+.info_ping_border p
+{
+    width: 1rem;
+    line-height: 0.16rem;
+}
+.info_ping_border div
+{
+    float: left;
+    width: 4.8rem;
+    height: 0.01rem;
+    border-top: 0.02rem solid gainsboro;
+    margin-top: 0.1rem;
+}
+.info_ping_dianping
+{
+    position: relative;
+}
+.info_ping_dianping input
+{
+    width: 5.2rem;
+    height: 0.6rem;
+    background-color: #efefef;
+    border: none;
+    margin-top: 0.4rem;
+    font-size: 0.16rem;
+    padding-left: 0.6rem;
+}
+
+.info_ping_dianping img
+{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+}
+.info_ping_div1
+{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: 5.8rem;
+    border-bottom: 0.02rem solid gainsboro;
+}
+.info_ping_div1 .img1
+{
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: 0.01rem;
+}
+.info_ping_div1 span
+{
+    font-size: 0.16rem;
+    display: inline-block;
+    vertical-align: 0.15rem;
+    color: grey;
+}
+.info_ping_div1 p
+{
+    margin-left: 0.43rem;
+    font-size: 0.18rem;
+    margin-top: 0.3rem;
+}
+.info_ping_div1 .p2
+{
+    font-size: 0.14rem;
+}
+.info_ping_div1 .p2 img
+{
+    float: right;
+    width: 0.34rem;
+    height: 0.32rem;
+    margin-top: -0.1rem;
+}
+.div_last
+{
+    border: none;
+}
+.info_footer
+{
+    width: 5.6rem;
+    height: 0.9rem;
+    padding-left: 0.8rem;
+    background-color: #f3f3f3;
+    margin-top: -0.3rem;
+}
+.info_footer img
+{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+/*hot*/
+.hot_container
+{
+    width: 6.4rem;
+    height: auto;
+}
+.hot_header
+{
+    width: 5.8rem;
+    /*height: 0.9rem;*/
+    padding: 0.3rem;
+    border-bottom: 0.01rem solid gainsboro;
+    background-color: #f8f8f8;
+}
+.hot_header_left
+{
+    float: left;
+    width: 0.46rem;
+    height: 0.46rem;
+}
+.hot_header_right
+{
+    float: right;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.1rem;
+}
+.hot_header span
+{
+    float: left;
+    display: inline-block;
+    /*margin-top: 0.1rem;*/
+    font-size: 0.35rem;
+    color: grey;
+    margin-left: 1.7rem;
+}
+.hot_content
+{
+    width: 5.8rem;
+    padding: 0.3rem;
+}
+/*login1*/
+.log1_container
+{
+    width: 6.4rem;
+    height: 9rem;
+    background-color: #f1f1f1;
+}
+.log1_header
+{
+    width: 6.4rem;
+    height: 2.7rem;
+    padding-top: 0.5rem;
+    /*padding-bottom: 0.5rem;*/
+    /*outline: 0.01rem solid;*/
+    background-color: #f1f1f1;
+}
+.log1_header_content
+{
+    width: 1.8rem;
+    /*height: 2.7rem;*/
+    margin: 0 auto;
+}
+.log1_header_content img
+{
+    width: 1.80rem;
+    height: 1.73rem;
+}
+.log1_header_content p
+{
+    font-size: 0.4rem;
+    width: 1.80rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.log1_content
+{
+    width: 4rem;
+    height: auto;
+    margin: 0 auto;
+}
+.log1_content_div1
+{
+    padding-top: 0.3rem;
+    margin-left: 0.3rem;
+    float: left;
+    width: 0.96rem;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+.log1_content_div1 img
+{
+    width: 0.96rem;
+    height: 0.96rem;
+}
+.log1_content_div1 p
+{
+    text-align: center;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.log1_content_div1 p a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 0.2rem;
+}
